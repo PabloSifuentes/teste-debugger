@@ -19,7 +19,7 @@ public class Ex6 {
     }
 
     public void adicionarEstoque() {
-        this.estoque = +1;
+        this.estoque++; //BUG
     }
 
     public void venderProduto(int quantidade) {
@@ -29,8 +29,8 @@ public class Ex6 {
     }
 
     public void aplicarPromocao(double porcentagemDesconto) {
-        double desconto = this.preco * (porcentagemDesconto);
-        this.preco = this.preco - desconto;
+        double desconto = this.preco * (porcentagemDesconto / 100); //BUG porcentagem
+        this.preco -= desconto;
 
     }
 
