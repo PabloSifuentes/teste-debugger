@@ -1,3 +1,5 @@
+package parImpar;
+
 public class Numero {
 
     public String parImpar(int numero) {

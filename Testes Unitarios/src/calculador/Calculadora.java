@@ -1,3 +1,5 @@
+package calculador;
+
 public class Calculadora {
 
     private double valor1;

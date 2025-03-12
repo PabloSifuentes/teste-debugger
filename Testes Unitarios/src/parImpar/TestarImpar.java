@@ -1,3 +1,5 @@
+package parImpar;
+
 import java.util.Scanner;
 
 public class TestarImpar {

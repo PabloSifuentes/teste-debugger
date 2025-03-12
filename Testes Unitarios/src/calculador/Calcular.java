@@ -1,3 +1,5 @@
+package calculador;
+
 import java.util.Scanner;
 
 public class Calcular {

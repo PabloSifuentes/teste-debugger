@@ -1,3 +1,5 @@
+package estacaoDeAno;
+
 import java.util.Scanner;
 
 public class Estacao {
